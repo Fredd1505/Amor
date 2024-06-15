@@ -11,26 +11,6 @@
 
   let texts = ['MI AMOR', 'NO TENGO', 'MUCHO PARA', 'TI,', 'SE QUE', 'NO HE', 'SIDO EL', 'MEJOR', 'CONTIGO,', 'PERO','TEN EN', 'CUENTA', 'QUE YO','TE AMO', 'DE VERDAD','DARÍA MI', 'VIDA POR', 'TI,', 'ESTOS', 'ÚLTIMOS', 'DÍAS NO', 'HAN SIDO', 'LOS','MEJORES,', 'TANTAS', 'COSAS QUE', 'PASAN,', 'SOLO', 'ESPERO', 'QUE ME', 'PUEDAS', 'PERDONAR', 'POR TODO', 'LO QUE TE', ' HICE.','AHORA SI', 'HOY ES UN', 'DÍA MUY', 'ESPECIAL', 'PARA', 'NOSOTROS,', 'PUES', 'SEGUIMOS', 'CUMPLIENDO', 'MESES', 'YA', 'PASAMOS A', 'UN AÑO Y', 'UN MES.', 'TODO', 'ESTE', 'TIEMPO', 'CONTIGO', 'ES LO', 'MEJOR DE', 'MI VIDA,', 'LO ÚNICO', 'QUE', 'QUIERO ES', 'PODER', 'QUEDARME', 'PARA', 'SIEMPRE.', 'SE QUE ES', 'CANSADO', 'Y ME', 'REFIERO A', 'ESTO DE', 'LEER Y', 'DAR CLICK', 'ESO ES', 'TODO', 'NA!', 'ES MENTIRA,', 'ENTRA', 'AL LINK', '<=']
 
-  // Crea el enlace
-const enlace = document.createElement('a');
-enlace.textContent = '💗';
-enlace.href = 'https://acortar.link/loca';
-
-// Agrega el enlace al contenedor
-const contenedor = document.getElementById('enlace-vertical');
-contenedor.appendChild(enlace);
-
-// Posiciona el enlace verticalmente
-enlace.style.position = 'absolute';
-enlace.style.top = '0';
-enlace.style.right = '0';
-enlace.style.bottom = '0';
-enlace.style.width = '2px';
-enlace.style.backgroundColor = '#000';
-enlace.style.color = '#fff';
-enlace.style.padding = '10px';
-enlace.style.textDecoration = 'none';
-
   let canvas,
     ctx,
     particles = [],
